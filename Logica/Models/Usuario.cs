@@ -18,6 +18,8 @@ namespace Logica.Models
         public string UsuarioDireccion { get; set; }
         public bool Activo { get; set; }
 
+        public string genero { get; set; }
+
         Usuario_Rol MiRolTipo { get; set; }
 
         public Usuario()

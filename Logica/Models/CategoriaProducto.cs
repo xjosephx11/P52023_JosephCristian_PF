@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +16,8 @@ namespace Logica.Models
         public DataTable listar() 
         {
             DataTable R = new DataTable();
+
+            Services.Conexion MiCnn = new Services.Conexion();
 
             return R;
         }

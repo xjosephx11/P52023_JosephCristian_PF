@@ -19,6 +19,8 @@ namespace Logica.Models
 
             Services.Conexion MiCnn = new Services.Conexion();
 
+            R = MiCnn.EjecutarSELECT("SPProductoCategoriaListar");
+
             return R;
         }
 

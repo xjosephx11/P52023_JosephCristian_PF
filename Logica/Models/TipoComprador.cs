@@ -16,6 +16,13 @@ namespace Logica.Models
         {
             DataTable R = new DataTable();
 
+            Services.Conexion MiCnn = new Services.Conexion();
+            R = MiCnn.EjecutarSELECT("SPTipoCompradorListar");
+
+
+
+
+
             return R;
         }
     }

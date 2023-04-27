@@ -29,7 +29,7 @@ namespace Logica.Models
             MiTipoProveedor = new TipoProveedor();
         }
 
-        public bool Agregar()
+        public bool Agregarr()
         {
             bool R = false;
 

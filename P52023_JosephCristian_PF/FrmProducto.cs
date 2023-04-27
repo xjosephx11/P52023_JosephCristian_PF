@@ -330,7 +330,9 @@ namespace P52023_JosephCristian_PF
                         {
                             MessageBox.Show("El producto se modifico correctamente", ":)", MessageBoxButtons.OK);
                             LimpiarFormulario();
-                           
+                            CargarListaDeProductos();
+                             
+
                         }
                     }
                 }
